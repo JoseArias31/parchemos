@@ -14,7 +14,7 @@ import {Link} from "react-router-dom";
 
 const ImageCarousel = () => {
   return (
-    <div className="mb-20">
+    <div className="mb-20 mt-40">
       <div className="flex flex-row items-center place-content-between pr-10">
     <h2 className="text-white text-2xl m-4">Eventos cerca de mi</h2>
     <h2 className="text-white">Hola! En Bogota estamos a 20°c, un dia perfecto para salir</h2>
