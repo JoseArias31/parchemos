@@ -1,7 +1,7 @@
 // Importar módulos necesarios de Swiper
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import Weather from "./clima";
 
 import {EventosData} from '../data/eventos'
 
@@ -14,10 +14,10 @@ import {Link} from "react-router-dom";
 
 const ImageCarousel = () => {
   return (
-    <div className="mb-20 mt-40">
+    <div className="mb-20 ">
       <div className="flex flex-row items-center place-content-between pr-10">
     <h2 className="text-white text-2xl m-4">Eventos cerca de mi</h2>
-    <h2 className="text-white">Hola! En Bogota estamos a 20°c, un dia perfecto para salir</h2>
+    <Weather />
     </div>
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]} // Módulos Swiper
@@ -50,7 +50,7 @@ const ImageCarousel = () => {
         </div>
         <div className="mt-6">
         <button type="button" className="text-gray-900 bg-white border border-gray-300 focus:outline-none hover:bg-gray-100 focus:ring-4 focus:ring-gray-100 font-medium rounded-lg text-sm  me-2 mb-2 dark:bg-gray-800 dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700 w-20 h-8 "><Link to={evento.link}>Info</Link></button>
-        <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 w-40 h-8 cursor-default pointer-events-none">Participantes: {evento.participantes}</button>
+        <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-xs me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700 w-40 h-8 cursor-default pointer-events-none w-28">Participantes: {evento.participantes}</button>
 
 
 

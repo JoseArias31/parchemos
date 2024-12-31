@@ -15,7 +15,7 @@ const Reseña = () => {
     <h1 className="text-4xl font-bold">¿Qué es Parchemos App?</h1>
     <h2 className="font-semibold">Parchemos App conecta personas en Bogotá a través de eventos y actividades basados en intereses compartidos. Fácil de usar, fomenta comunidades y encuentros significativos.</h2>
 <h2>En Parchemos App, puedes ser un host creando eventos o un participante uniéndote a actividades que van desde deportes, música y arte, hasta torneos de videojuegos, voluntariados y charlas tech. Nuestro objetivo es fomentar conexiones significativas, enriquecer la vida social y facilitar un espacio donde todos puedan disfrutar y crecer, ¡todo mientras parcheamos juntos!</h2>
-<button class="bg-[#439DFE] hover:bg-[#5B6CFF] text-white font-bold py-2 px-4 rounded-full w-[120px]">
+<button className="bg-[#439DFE] hover:bg-[#5B6CFF] text-white font-bold py-2 px-4 rounded-full w-[120px]">
 <Link to="/eventos">Saber más</Link>
 </button>  
     </div>
