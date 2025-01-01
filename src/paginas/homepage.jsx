@@ -4,6 +4,7 @@ import Whatsapp from '../componentes/whatsApp';
 import Reseña from '../componentes/reseña';
 import Footer from '../componentes/footer';
 import { HeroSection } from '../componentes/heroSection';
+import { BuscarParche } from '../componentes/buscarParche';
 Footer
 const Homepage = () =>  {
   return (
@@ -11,6 +12,7 @@ const Homepage = () =>  {
       <Navbar />
       <HeroSection />
       <EventoCarrusel />
+      <BuscarParche />
       <Whatsapp />
       <Reseña />
 <Footer />
