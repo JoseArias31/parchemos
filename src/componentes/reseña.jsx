@@ -4,7 +4,7 @@ import reseña from "../imagenes/reseña.png"
 
 const Reseña = () => {
     return(
-    <div className="flex flex-row place-content-evenly mt-60 mb-60">
+    <div className="flex flex-row place-content-evenly mt-60 mb-40">
     
     <img
     src={reseña}
