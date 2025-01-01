@@ -17,7 +17,7 @@ export const Categorias = () => {
           deportes, arte, tecnología, comida y mucho más, ¡para que disfrutes y
           te diviertas con lo que más te guste!
         </p>
-        <Link to={"/categorias"}><button className="bg-[#5B6CFF] hover:bg-[#439DFE] text-white font-bold py-2 px-4 rounded-full self-center mt-4 mb-20">
+        <Link to={"/categorias"}><button className="bg-[#439DFE] hover:bg-[#5B6CFF] text-white font-bold py-2 px-4 rounded-full self-center mt-4 mb-20">
           Únete a un evento
         </button></Link>
       </div>

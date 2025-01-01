@@ -6,6 +6,7 @@ import Footer from '../componentes/footer';
 import { HeroSection } from '../componentes/heroSection';
 import { BuscarParche } from '../componentes/buscarParche';
 import { Categorias } from '../componentes/categorias';
+import { Contactanos } from '../componentes/contactanos';
 Footer
 const Homepage = () =>  {
   return (
@@ -17,6 +18,7 @@ const Homepage = () =>  {
       <Categorias />
       <Whatsapp />
       <Reseña />
+      <Contactanos />
 <Footer />
     </>
   )

@@ -2,6 +2,9 @@ import { Link } from "react-router-dom";
 import android from '../imagenes/android.png'
 import iOS from '../imagenes/iOS.png'
 const Footer = () => {
+ 
+  const currentYear = new Date().getFullYear(); // Obtiene el año actual
+ 
   const menuItems = [
     { name: "Eventos", path: "/eventos" },
     { name: "Categorías", path: "/categorias" },
@@ -24,7 +27,7 @@ return(
 <div className="flex flex-row mb-4 text-white"style={{ textAlign: "-webkit-center" }}>
 <div className="w-1/4 h-12 flex flex-col justify-between gap-10">
   <h1 className="text-xl font-bold">PARCHEMOS.COM</h1>
-  <h2>©Todos los derechos reservados 2024 Parchemos</h2>
+  <h2>©Todos los derechos reservados {currentYear} Parchemos</h2>
 </div>
   <div className="w-1/4 h-12 space-y-2">
 <h1 className="font-bold">EXPERIENCIAS</h1>
@@ -50,14 +53,14 @@ return(
   <div className="w-1/4 h-12 space-y-2">
     <h1 className="font-bold">APP MOVIL</h1>
     <div className="flex flex-row gap-4 justify-center">
-    <img
+    <a href="https://play.google.com/store/apps/details?id=com.instagram.android" target="blank"><img
     src={android}
     width={30}
-    ></img>
-    <img
+    ></img></a>
+     <a href="https://apps.apple.com/us/app/instagram/id389801252" target="blank"><img
     src={iOS}
     width={30}
-    ></img>
+    ></img></a>
     </div>
   </div>
 
