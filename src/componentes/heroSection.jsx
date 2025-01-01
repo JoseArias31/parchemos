@@ -19,9 +19,7 @@ export const HeroSection = () => {
         width={400}
         
         >
-
-
-            
+          
         </img>
       </div>
     </div>
