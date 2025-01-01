@@ -66,6 +66,58 @@ export const EventosData = [{
     link:'/Futbol-11-vs-11-calera'
 
 
+},{
+
+    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    alt:'Slide 5',
+    eventoNombre: 'Futbol 11 vs 11 Calera',
+    mes:'Dic',
+    dia:'20',
+    hora:'7:00',
+    meridiano:'PM',
+    participantes: '30',
+    link:'/Futbol-11-vs-11-calera'
+
+
+},{
+
+    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    alt:'Slide 5',
+    eventoNombre: 'Futbol 11 vs 11 Calera',
+    mes:'Dic',
+    dia:'20',
+    hora:'7:00',
+    meridiano:'PM',
+    participantes: '30',
+    link:'/Futbol-11-vs-11-calera'
+
+
+},{
+
+    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    alt:'Slide 5',
+    eventoNombre: 'Futbol 11 vs 11 Calera',
+    mes:'Dic',
+    dia:'20',
+    hora:'7:00',
+    meridiano:'PM',
+    participantes: '30',
+    link:'/Futbol-11-vs-11-calera'
+
+
+},{
+
+    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    alt:'Slide 5',
+    eventoNombre: 'Futbol 11 vs 11 Calera',
+    mes:'Dic',
+    dia:'20',
+    hora:'7:00',
+    meridiano:'PM',
+    participantes: '30',
+    link:'/Futbol-11-vs-11-calera'
+
+
 },
 ];
 
