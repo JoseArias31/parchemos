@@ -3,7 +3,7 @@ import lupa from "../imagenes/lupaNB.png";
 
 export const BuscarParche = () => {
   const [search, setSearch] = useState("");
-  const [foundActivity, setFoundActivity] = useState(null);
+  const [foundActivity, setFoundActivity] = useState(" ");
   const actividades = [
     "Conciertos",
     "Festivales",
@@ -109,7 +109,7 @@ setSearch("");
     <div className="justify-self-center mt-2">
       {/* Muestra el resultado si se encuentra una actividad */}
       {foundActivity === null ? (
-        <p className="text-white ">Actividad no encontrada, intenta de nuevo</p>
+        <p  className="text-white ">Actividad no encontrada, intenta de nuevo</p>
       ) : (
         console.log("")
       )}
