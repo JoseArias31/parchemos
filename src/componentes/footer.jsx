@@ -14,7 +14,7 @@ const Footer = () => {
   ];
 
   const menuItems2 = [
-    { name: "Unete", path: "/registro" },
+    { name: "Únete", path: "/registro" },
     { name: "Trabaja con Nosotros", path: "/trabajo" },
     { name: "Ayuda", path: "/ayuda" },
     { name: "Politicas de Privacidad", path: "/politicas-de-privacidad" },

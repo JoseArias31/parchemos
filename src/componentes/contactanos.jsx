@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 export const Contactanos = () => {
   return (
     <div className="text-center mt-20 mb-20">
-      <h1 className="text-white text-7xl mb-6">Contactanos</h1>
+      <h1 className="text-white text-7xl mb-6">Contáctanos</h1>
 
       <p className="text-white">
         ¿Tienes alguna duda, sugerencia o simplemente quieres ponerte en
@@ -19,7 +19,7 @@ export const Contactanos = () => {
       </p>
       <Link to={"/contactanos"}>
         <button className="bg-[#5B6CFF] hover:bg-[#439DFE] text-white font-bold py-2 px-4 rounded-full self-center mt-4 mb-20 mt-8">
-          Escribenos
+        Escríbenos
         </button>
       </Link>
     </div>
