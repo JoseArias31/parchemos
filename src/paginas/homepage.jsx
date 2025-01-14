@@ -1,17 +1,17 @@
-import Navbar from '../componentes/navbar';
+// import Navbar from '../componentes/navbar';
 import EventoCarrusel from '../componentes/eventosCarrusel'
 import Whatsapp from '../componentes/whatsApp';
 import Reseña from '../componentes/reseña';
-import Footer from '../componentes/footer';
+// import Footer from '../componentes/footer';
 import { HeroSection } from '../componentes/heroSection';
 import { BuscarParche } from '../componentes/buscarParche';
 import { Categorias } from '../componentes/categorias';
 import { Contactanos } from '../componentes/contactanos';
-Footer
+
 const Homepage = () =>  {
   return (
 <>  
-      <Navbar />
+      {/* <Navbar /> */}
       <HeroSection />
       <EventoCarrusel />
       <BuscarParche />
@@ -19,7 +19,7 @@ const Homepage = () =>  {
       <Whatsapp />
       <Reseña />
       <Contactanos />
-<Footer />
+{/* <Footer /> */}
     </>
   )
 }

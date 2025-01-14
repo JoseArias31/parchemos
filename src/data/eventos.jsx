@@ -11,7 +11,7 @@ function generarLink(eventoNombre) {
 
 export const EventosData = [{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+1',
+    src:'https://picsum.photos/300/200?random=1',
     alt:'Slide 1',
     eventoNombre: 'Futbol 11 vs 11 Calera',
     mes:'Dic',
@@ -22,7 +22,7 @@ export const EventosData = [{
     link:'/Futbol-11-vs-11-calera'
 },{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+2',
+    src:'https://picsum.photos/300/200?random=2',
     alt:'Slide 2',
     eventoNombre: 'Clases de Salsa',
     mes:'Dic',
@@ -33,7 +33,7 @@ export const EventosData = [{
     link:'/Futbol-11-vs-11-calera'
 },{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+3',
+    src:'https://picsum.photos/300/200?random=3',
     alt:'Slide 3',
     eventoNombre: 'Cicloruta Nocturna',
     mes:'Dic',
@@ -44,7 +44,7 @@ export const EventosData = [{
     link:'/Futbol-11-vs-11-calera'
 },{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+4',
+    src:'https://picsum.photos/300/200?random=4',
     alt:'Slide 4',
     eventoNombre: 'Lectura Poetica',
     mes:'Dic',
@@ -55,7 +55,7 @@ export const EventosData = [{
     link:'/Futbol-11-vs-11-calera'
 },{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    src:'https://picsum.photos/300/200?random=5',
     alt:'Slide 5',
     eventoNombre: 'Futbol 11 vs 11 Calera',
     mes:'Dic',
@@ -68,7 +68,7 @@ export const EventosData = [{
 
 },{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    src:'https://picsum.photos/300/200?random=6',
     alt:'Slide 5',
     eventoNombre: 'Futbol 11 vs 11 Calera',
     mes:'Dic',
@@ -81,7 +81,7 @@ export const EventosData = [{
 
 },{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    src:'https://picsum.photos/300/200?random=7',
     alt:'Slide 5',
     eventoNombre: 'Futbol 11 vs 11 Calera',
     mes:'Dic',
@@ -94,7 +94,7 @@ export const EventosData = [{
 
 },{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    src:'https://picsum.photos/300/200?random=8',
     alt:'Slide 5',
     eventoNombre: 'Futbol 11 vs 11 Calera',
     mes:'Dic',
@@ -107,7 +107,7 @@ export const EventosData = [{
 
 },{
 
-    src:'https://via.placeholder.com/300x200?text=Slide+5',
+    src:'https://picsum.photos/300/200?random=9',
     alt:'Slide 5',
     eventoNombre: 'Futbol 11 vs 11 Calera',
     mes:'Dic',
